@@ -1,0 +1,54 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+h2 {
+    color: #A1A0A0;
+}
+
+.content {
+    width: 100vw; 
+    height: 100vh;
+    padding: 1rem;
+    background-color: #ffffff;
+    background-image: url(/pokeball-pokemon-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-blend-mode: hard-light;
+    filter: blur(0px);
+    transition: 1s ease-out;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center
+}
+
+.pesquisa {
+    height: 30px;
+    width: 35rem;
+    margin: auto;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 3px #424D9E, -.1em 0 .4em #424D9E;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
